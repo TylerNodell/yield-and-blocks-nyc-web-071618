@@ -1,5 +1,5 @@
 def hello_t(names)
-  if names == nil
+  if names == []
     puts "Hey! No block was given!"
   else
     names.each { |name| puts name }
