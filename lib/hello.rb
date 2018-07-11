@@ -1,6 +1,6 @@
 def hello_t(names)
   if names == nil
-    return
+    puts "Hey! No block was given!"
   else
     names.each { |name| puts name }
   end
