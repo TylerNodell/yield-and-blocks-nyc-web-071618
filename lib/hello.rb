@@ -1,7 +1,9 @@
 def hello_t(names)
-  names.each { |name| puts name }
+  if names == nil
+    return
+  else
+    names.each { |name| puts name }
+  end
 end
 
 # call your method here!
-
-hello_t
